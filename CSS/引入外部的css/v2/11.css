@@ -1,0 +1,10 @@
+/* 表格注释  */
+
+table {
+ border-collapse: collapse;
+ height:100px; 
+} 
+
+table td {
+    border:1px solid #000000;
+}

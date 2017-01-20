@@ -1,0 +1,30 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>隐藏按钮</title>
+<style type="text/css">
+div{
+  height:150px;
+  width:150px;
+  background-color:green;
+  margin-top:10px;
+}
+</style>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+  $("button").click(function(){ 
+    $("div").slideUp(2000,function(){alert("隐藏完毕")}); 
+  }) 
+}) 
+</script>
+
+</head>
+<body>
+<div></div>
+<button>点击查看效果</button>
+</body>
+</html>
